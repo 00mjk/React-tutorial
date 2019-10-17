@@ -1,12 +1,12 @@
+// eslint-disable-next-line
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import List from "./components/List";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+/**
+ * Single JSX element must be returned.
+ * ReactDOM.render(what to render, where to render(path to our main div in public-index.html).
+ */
+ReactDOM.render(<List/>, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

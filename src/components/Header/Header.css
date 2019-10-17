@@ -1,0 +1,12 @@
+.header-container {
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.time-container {
+    margin-right: 3%;
+}
