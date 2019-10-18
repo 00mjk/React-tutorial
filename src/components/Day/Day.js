@@ -14,6 +14,7 @@ class Day extends Component {
         case 4: return 'Thursday';
         case 5: return 'Friday';
         case 6: return 'Saturday';
+        default: return  '';
       }
     };
 

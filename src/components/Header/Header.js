@@ -16,7 +16,7 @@ class Header extends Component {
                 </div>
 
                 <header>
-                    <p className={"header-title"}>To-Do List implemented in React by {firstName + ' ' + lastName}</p>
+                    <p style={{color: 'white'}} className={"header-title"}>To-Do List implemented in React by {firstName + ' ' + lastName}</p>
                 </header>
             </div>
         );
